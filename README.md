@@ -1,16 +1,9 @@
-<h1 align="center">💜 VaaniGuard Chatbot 🤖💬</h1>
+<h1 align="center">VaaniGuard Chatbot 🤖💬</h1>
 
-<p align="center">
-  <i>An offline, real-time chatbot designed for delightful and intelligent conversations — flirty, witty, and completely yours.</i><br>
-  <b>Developed with 💖 by Vaishnavi M. Rajput</b>
-</p>
+<div align="center">
+  <img src="https://cdn.dribbble.com/userupload/10543014/file/original-4703d0ba72b72f87fa49a618a24a1f6d.gif" alt="Chatbot Loader" width="500"/>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Built%20With-TensorFlow-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NLP-Powered-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Offline-Ready-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Flirt%20Factor-100%25-pink?style=for-the-badge" />
-</p>
 
 ---
 
@@ -25,10 +18,23 @@
 ---
 
 ## 🖥️ GUI Preview
+<div align="center" style="font-family: 'Segoe UI', sans-serif;">
+  <table border="0" cellspacing="20">
+    <tr>
+      <td align="center">
+        <h2>👋 Welcome Screen</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" width="120" alt="Welcome Screen">
+        <p style="font-size: 16px;">start</p>
+      </td>
+      <td align="center">
+        <h2>💬 Conversation Interface</h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" width="120" alt="Chat Interface">
+        <p style="font-size: 16px;">chatting</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-| Welcome Screen | Conversation Interface |
-|:--------------:|:----------------------:|
-| ![start](assets/vaaniguard_gui_1.png) | ![chatting](assets/vaaniguard_gui_2.png) |
 
 > *A chatbot that doesn’t just respond — it resonates.*
 
