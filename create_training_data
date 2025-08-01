@@ -1,0 +1,17 @@
+def create_training_data(documents, words, classes):
+    training = []
+    output_empty = [0] * len(classes)
+
+    for doc in documents:
+        bag = []
+        pattern_words = doc[0]
+        for w in words:
+            bag.append(1) if w in pattern_words else bag.append(0)
+
+        output_row = list(output_empty)
+        output_row[classes.index(doc[1])] = 1
+        training.append([bag, output_row])
+
+    training_x = [x[0] for x in training]
+    training_y = [x[1] for x in training]
+    return training_x, training_y
